@@ -622,7 +622,7 @@ function App() {
           {statRow('Sunk', playerSunk, aiSunk,
             playerSunk > aiSunk ? 'player' : aiSunk > playerSunk ? 'ai' : null
           )}
-          {statRow('Remaining', aiShipsRemaining, playerShipsRemaining)}
+          {statRow('Remaining', playerShipsRemaining, aiShipsRemaining)}
         </div>
         {/* Accuracy bars */}
         <div className="px-3 pb-2 pt-1 border-t border-blue-800/20">
